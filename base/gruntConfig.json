@@ -1,0 +1,10 @@
+{
+    "compass" : {
+        "config" : "config.rb"
+    },
+
+    "server" : {
+        "src"  : "server.js",
+        "port" : "4567"
+    }
+}

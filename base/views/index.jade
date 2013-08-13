@@ -1,0 +1,23 @@
+extends layout
+
+block content
+	.container.login
+		.row
+			.span4.offset4
+				.well
+					form(action='./', method='post')
+						.login-head
+							img(src='images/logo.gif')
+						.login-fields
+							.field.row-fluid
+								label(for='username') Username:
+								input#username.span12(type='text', name='username', value='', placeholder='Username')
+							.field.row-fluid
+								label(for='password') Password:
+								input#password.span12(type='password', name='password', value='', placeholder='Password')
+							.login-actions
+								span.login-checkbox
+									label(for='Field')
+										| keep me signed in
+									input#Field.field.login-checkbox(name='Field', type='checkbox', value='First Choice', tabindex='4')
+							button.button.btn.pull-right.btn-info Sign In

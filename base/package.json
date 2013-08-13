@@ -1,0 +1,16 @@
+{
+  "name": "daya",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "express": "3.3.4",
+    "jade": "*",
+    "grunt-contrib-compass": "~0.4.1",
+    "grunt-express-server": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.1"
+  }
+}
