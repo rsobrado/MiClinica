@@ -1,4 +1,17 @@
 /* line 1, ../../sass/_base.scss */
+.btn-info {
+  background: #2d86ca;
+  border: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* line 7, ../../sass/_base.scss */
 .well {
   overflow: hidden;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* line 12, ../../sass/_base.scss */
+input[type=text], input[type=password] {
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
 }

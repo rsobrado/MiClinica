@@ -1,13 +1,14 @@
 extends layout
 
-block content
+block body
 	.container.login
 		.row
 			.span4.offset4
 				.well
 					form(action='./', method='post')
-						.login-head
-							img(src='images/logo.gif')
+						.login-header
+							h2 Mi Clinica
+							//img(src='images/logo.gif')
 						.login-fields
 							.field.row-fluid
 								label(for='username') Username:

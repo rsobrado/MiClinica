@@ -1,9 +1,12 @@
-doctype 5
-html
+!!!
+html(ng-app)
   head
-    title= title
+    meta(charset='utf8')
+    base(href='/')
+    title Mi Clinica
     link(rel='stylesheet', href='/stylesheets/bootstrap.css')
     link(rel='stylesheet', href='/stylesheets/app.css')
     script(src="http://localhost:35729/livereload.js", type="application/javascript")
+    script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js", type="application/javascript")
   body
-    block content
+    block body
