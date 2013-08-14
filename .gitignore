@@ -2,6 +2,7 @@ node_modules
 .tmp
 .sass-cache
 
+base/node_modules
 base/.tmp
 base/.sass-cache
 
