@@ -5,3 +5,5 @@ node_modules
 base/node_modules
 base/.tmp
 base/.sass-cache
+
+.gitignore
